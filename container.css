@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+header {
+    display: flex;
+    background-color: #0f0f74;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+}
+
+.categoria{
+    display: flex;
+    justify-content: space-around;
+    background-color: #dedede;
+    padding: 13px;
+    gap: 24%;
+}
+
+h2{
+    margin: 7px;
+}
+
+.trabalhos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 35px 0px;
+    border: solid 3px #0f0f74;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trabalhos:hover {
+    background-color: #dedede;
+}
